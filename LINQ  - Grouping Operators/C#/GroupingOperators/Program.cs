@@ -221,7 +221,7 @@ namespace GroupingOperators
         {
             DataSet ds = new DataSet();
 
-            // Customers Table
+            // Customers Tab
             ds.Tables.Add(CreateNumbersTable());
             ds.Tables.Add(CreateLowNumbersTable());
             ds.Tables.Add(CreateEmptyNumbersTable());
